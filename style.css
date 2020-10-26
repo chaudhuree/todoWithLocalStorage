@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: rgb(33,36,0);
+    background: linear-gradient(90deg, rgba(33,36,0,0.9051995798319328) 0%, rgba(121,114,9,0.5382528011204482) 47%, rgba(255,226,0,0.7483368347338936) 100%);
+}
+.container {
+    
+  margin: 75px auto;
+  max-width: 450px !important;
+}
+.btn {
+  background-color: #436fb8d4 !important;
+}
+.clear-button {
+  background-color: #ea2c10d4 !important;
+}
+@media only screen and (max-width: 600px) {
+    body{
+        background: #f1f1f1;
+    }
+    .container{
+        margin-top: 0;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .card{
+        margin: 0;
+        height: 100vh;
+    }
+  }
